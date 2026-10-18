@@ -1,0 +1,54 @@
+Loaded map file 'tests\cases\map_power.txt': 4 rows x 7 columns, 8 pellets, 1 ghost cell(s)
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=tests\cases\map_power.txt
+  difficulty=2  seed=3  ghosts=1  levels=1  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+#######
+#OP..G#
+#.....#
+#######
+Level 1/1 | Score 0 | Lives 3 | Pellets 8/8 | Tick 0 | Ghosts 1
+  * Power pellet! ghosts are scared for 20 ticks (+50 points)
+#######
+#P .! #
+#.....#
+#######
+Level 1/1 | Score 50 | Lives 3 | Pellets 7/8 | Tick 1 | Ghosts 1 | SCARED 19
+#######
+#P !. #
+#.....#
+#######
+Level 1/1 | Score 50 | Lives 3 | Pellets 7/8 | Tick 2 | Ghosts 1 | SCARED 18
+#######
+#P!.. #
+#.....#
+#######
+Level 1/1 | Score 50 | Lives 3 | Pellets 7/8 | Tick 3 | Ghosts 1 | SCARED 17
+  * Ghost 1 eaten! +200 points (returns in 5 ticks)
+#######
+#P .. #
+#.....#
+#######
+Level 1/1 | Score 250 | Lives 3 | Pellets 7/8 | Tick 4 | Ghosts 1 | SCARED 16
+#######
+#P .. #
+#.....#
+#######
+Level 1/1 | Score 250 | Lives 3 | Pellets 7/8 | Tick 5 | Ghosts 1 | SCARED 15
+
+End of input (EOF) reached - exiting without crashing.
+
+========== GAME OVER ==========
+Result        : QUIT
+Level reached : 1 of 1
+Final score   : 250
+Pellets eaten : 1 (this level: 1 of 8)
+Ticks played  : 5
+Lives left    : 3
+Map           : tests\cases\map_power.txt
+Difficulty    : 2
+Config        : seed=3 ghosts=1 ai=random
+RESULT=QUIT SCORE=250 PELLETS_EATEN=1 PELLETS_TOTAL=8 TICKS=5 LIVES=3 LEVEL=1 SEED=3 GHOSTS=1 ANTIFOLLOW=0 DIFFICULTY=2

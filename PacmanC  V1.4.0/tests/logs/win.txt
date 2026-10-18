@@ -1,0 +1,28 @@
+Loaded map file 'tests/cases/map_win.txt': 5 rows x 9 columns, 6 pellets, 1 ghost cell(s)
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=tests/cases/map_win.txt
+  difficulty=2  seed=42  ghosts=1  levels=1  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+  * Pellet eaten at (1,2), score 10, 5 left
+  * Pellet eaten at (1,3), score 20, 4 left
+  * Pellet eaten at (1,4), score 30, 3 left
+  * Pellet eaten at (1,5), score 40, 2 left
+  * Pellet eaten at (1,6), score 50, 1 left
+  * Pellet eaten at (1,7), score 60, 0 left
+
+*** All pellets eaten - YOU WIN! ***
+
+========== GAME OVER ==========
+Result        : WIN
+Level reached : 1 of 1
+Final score   : 60
+Pellets eaten : 6 (this level: 6 of 6)
+Ticks played  : 6
+Lives left    : 3
+Map           : tests/cases/map_win.txt
+Difficulty    : 2
+Config        : seed=42 ghosts=1 ai=random
+RESULT=WIN SCORE=60 PELLETS_EATEN=6 PELLETS_TOTAL=6 TICKS=6 LIVES=3 LEVEL=1 SEED=42 GHOSTS=1 ANTIFOLLOW=0 DIFFICULTY=2

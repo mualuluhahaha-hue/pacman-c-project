@@ -1,0 +1,43 @@
+Loaded map file 'tests/cases/map_tail.txt': 3 rows x 22 columns, 18 pellets, 1 ghost cell(s)
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=tests/cases/map_tail.txt
+  difficulty=2  seed=1  ghosts=1  levels=1  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+  * Pellet eaten at (1,2), score 10, 17 left
+  * Pellet eaten at (1,4), score 20, 16 left
+  * Pellet eaten at (1,5), score 30, 15 left
+  * Pellet eaten at (1,6), score 40, 14 left
+  * Pellet eaten at (1,7), score 50, 13 left
+  * Pellet eaten at (1,8), score 60, 12 left
+  * Pellet eaten at (1,9), score 70, 11 left
+  * Pellet eaten at (1,10), score 80, 10 left
+  * Pellet eaten at (1,11), score 90, 9 left
+  * Pellet eaten at (1,12), score 100, 8 left
+  * Pellet eaten at (1,13), score 110, 7 left
+  * Pellet eaten at (1,14), score 120, 6 left
+  * Pellet eaten at (1,15), score 130, 5 left
+  * Pellet eaten at (1,16), score 140, 4 left
+  * Pellet eaten at (1,17), score 150, 3 left
+  * Pellet eaten at (1,18), score 160, 2 left
+  * Pellet eaten at (1,19), score 170, 1 left
+  * Pac-Man was caught! Lives left: 2
+  * Pac-Man and the ghosts respawn at their start cells (pellets stay eaten)
+  * Pac-Man was caught! Lives left: 1
+  * Pac-Man and the ghosts respawn at their start cells (pellets stay eaten)
+
+End of input (EOF) reached - exiting without crashing.
+
+========== GAME OVER ==========
+Result        : QUIT
+Level reached : 1 of 1
+Final score   : 170
+Pellets eaten : 17 (this level: 17 of 18)
+Ticks played  : 40
+Lives left    : 1
+Map           : tests/cases/map_tail.txt
+Difficulty    : 2
+Config        : seed=1 ghosts=1 ai=random
+RESULT=QUIT SCORE=170 PELLETS_EATEN=17 PELLETS_TOTAL=18 TICKS=40 LIVES=1 LEVEL=1 SEED=1 GHOSTS=1 ANTIFOLLOW=0 DIFFICULTY=2

@@ -1,0 +1,25 @@
+Choose difficulty 1-5 (q to quit): 
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=level-1 (24x11, 4 ghost cells, 2 power pellets)
+  difficulty=3  seed=1  ghosts=3  levels=3  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+  * Pellet eaten at (5,12), score 10, 97 left
+  * Pellet eaten at (5,13), score 20, 96 left
+  * Pellet eaten at (5,14), score 30, 95 left
+
+Tick limit of 3 reached - stopping.
+
+========== GAME OVER ==========
+Result        : QUIT
+Level reached : 1 of 3
+Final score   : 30
+Pellets eaten : 3 (this level: 3 of 98)
+Ticks played  : 3
+Lives left    : 3
+Map           : level-1 (24x11, 4 ghost cells, 2 power pellets)
+Difficulty    : 3
+Config        : seed=1 ghosts=3 ai=random
+RESULT=QUIT SCORE=30 PELLETS_EATEN=3 PELLETS_TOTAL=98 TICKS=3 LIVES=3 LEVEL=1 SEED=1 GHOSTS=3 ANTIFOLLOW=0 DIFFICULTY=3

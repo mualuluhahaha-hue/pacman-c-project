@@ -1,0 +1,28 @@
+Choose difficulty 1-5 (q to quit): Invalid input - type a number from 1 to 5, or q to quit.
+Choose difficulty 1-5 (q to quit): Invalid input - type a number from 1 to 5, or q to quit.
+Choose difficulty 1-5 (q to quit): Invalid input - type a number from 1 to 5, or q to quit.
+Choose difficulty 1-5 (q to quit): Invalid input - type a number from 1 to 5, or q to quit.
+Choose difficulty 1-5 (q to quit): 
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=level-1 (24x11, 4 ghost cells, 2 power pellets)
+  difficulty=2  seed=1  ghosts=2  levels=2  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+  * Pellet eaten at (5,12), score 10, 97 left
+  * Pellet eaten at (5,13), score 20, 96 left
+
+Tick limit of 2 reached - stopping.
+
+========== GAME OVER ==========
+Result        : QUIT
+Level reached : 1 of 2
+Final score   : 20
+Pellets eaten : 2 (this level: 2 of 98)
+Ticks played  : 2
+Lives left    : 3
+Map           : level-1 (24x11, 4 ghost cells, 2 power pellets)
+Difficulty    : 2
+Config        : seed=1 ghosts=2 ai=random
+RESULT=QUIT SCORE=20 PELLETS_EATEN=2 PELLETS_TOTAL=98 TICKS=2 LIVES=3 LEVEL=1 SEED=1 GHOSTS=2 ANTIFOLLOW=0 DIFFICULTY=2
