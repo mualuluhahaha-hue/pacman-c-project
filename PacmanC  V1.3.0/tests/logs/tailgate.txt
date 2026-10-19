@@ -1,0 +1,33 @@
+Loaded map file 'tests/cases/map_tail.txt': 3 rows x 22 columns, 18 pellets, 1 ghost cell(s)
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=tests/cases/map_tail.txt
+  difficulty=2  seed=1  ghosts=1  levels=1  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+  * Pellet eaten at (1,2), score 10, 17 left
+  * Pellet eaten at (1,4), score 20, 16 left
+  * Ghost 1 turns around - Pac-Man was following it
+  * Pellet eaten at (1,5), score 30, 15 left
+  * Pac-Man was caught! Lives left: 2
+  * Pac-Man and the ghosts respawn at their start cells (pellets stay eaten)
+  * Ghost 1 turns around - Pac-Man was following it
+  * Pac-Man was caught! Lives left: 1
+  * Pac-Man and the ghosts respawn at their start cells (pellets stay eaten)
+  * Ghost 1 turns around - Pac-Man was following it
+  * Pac-Man was caught! Lives left: 0
+
+*** No lives left - GAME OVER ***
+
+========== GAME OVER ==========
+Result        : LOSE
+Level reached : 1 of 1
+Final score   : 30
+Pellets eaten : 3 (this level: 3 of 18)
+Ticks played  : 12
+Lives left    : 0
+Map           : tests/cases/map_tail.txt
+Difficulty    : 2
+Config        : seed=1 ghosts=1 ai=random
+RESULT=LOSE SCORE=30 PELLETS_EATEN=3 PELLETS_TOTAL=18 TICKS=12 LIVES=0 LEVEL=1 SEED=1 GHOSTS=1 ANTIFOLLOW=3 DIFFICULTY=2

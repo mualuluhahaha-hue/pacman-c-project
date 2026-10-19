@@ -1,0 +1,25 @@
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=level-1 (24x11, 4 ghost cells, 2 power pellets)
+  difficulty=2  seed=1  ghosts=1  levels=2  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+Unknown key 'x' - use w/a/s/d to move or q to quit.
+Unknown key 'z' - use w/a/s/d to move or q to quit.
+Unknown key '1' - use w/a/s/d to move or q to quit.
+  * Pellet eaten at (5,12), score 10, 97 left
+
+Tick limit of 3 reached - stopping.
+
+========== GAME OVER ==========
+Result        : QUIT
+Level reached : 1 of 2
+Final score   : 10
+Pellets eaten : 1 (this level: 1 of 98)
+Ticks played  : 3
+Lives left    : 3
+Map           : level-1 (24x11, 4 ghost cells, 2 power pellets)
+Difficulty    : 2
+Config        : seed=1 ghosts=1 ai=random
+RESULT=QUIT SCORE=10 PELLETS_EATEN=1 PELLETS_TOTAL=98 TICKS=3 LIVES=3 LEVEL=1 SEED=1 GHOSTS=1 ANTIFOLLOW=0 DIFFICULTY=2

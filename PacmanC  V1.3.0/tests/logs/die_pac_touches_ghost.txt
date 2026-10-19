@@ -1,0 +1,27 @@
+Loaded map file 'tests/cases/map_die.txt': 3 rows x 5 columns, 1 pellets, 1 ghost cell(s)
+==========================================================
+  PAC-MAN  (text based, standard C only)
+  map=tests/cases/map_die.txt
+  difficulty=2  seed=42  ghosts=1  levels=1  ai=random
+  keys: w=up  s=down  a=left  d=right  q=quit
+  symbols: # wall   . pellet   O power pellet   P you   G ghost   ! scared   * fruit
+==========================================================
+  * Pac-Man was caught! Lives left: 2
+  * Pac-Man and the ghosts respawn at their start cells (pellets stay eaten)
+  * Pac-Man was caught! Lives left: 1
+  * Pac-Man and the ghosts respawn at their start cells (pellets stay eaten)
+  * Pac-Man was caught! Lives left: 0
+
+*** No lives left - GAME OVER ***
+
+========== GAME OVER ==========
+Result        : LOSE
+Level reached : 1 of 1
+Final score   : 0
+Pellets eaten : 0 (this level: 0 of 1)
+Ticks played  : 3
+Lives left    : 0
+Map           : tests/cases/map_die.txt
+Difficulty    : 2
+Config        : seed=42 ghosts=1 ai=random
+RESULT=LOSE SCORE=0 PELLETS_EATEN=0 PELLETS_TOTAL=1 TICKS=3 LIVES=0 LEVEL=1 SEED=42 GHOSTS=1 ANTIFOLLOW=0 DIFFICULTY=2
